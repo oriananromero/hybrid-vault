@@ -39,6 +39,7 @@ Este proyecto me permitió entender:
 ## Imagenes de prueba 
  - Ejecución del Proceso
    <img width="806" height="181" alt="code_process" src="https://github.com/user-attachments/assets/2375de17-a8b3-46fb-9299-e97cc6cac415" />
+   
    *Flujo completo de la herramienta: generación de llaves RSA de 2048 bits, cifrado del archivo objetivo y posterior recuperación exitosa mediante la llave privada.*
    
 - Contraste de Entropía
@@ -53,7 +54,7 @@ Este proyecto me permitió entender:
 - Monitorización del Sistema
   <img width="1853" height="879" alt="auditctl-capture" src="https://github.com/user-attachments/assets/6235bed1-34ff-44b7-9abe-572cdac92955" />
   
-  *Implementación de telemetría mediante Auditd. El log captura el momento exacto en que el intérprete de Python interactúa con archivos sensibles. Como analista, este rastro permite la atribución: sé exactamente qué         proceso y qué usuario generaron las llaves criptográficas. Incluso si el atacante borra el script después de ejecutarlo, el log de auditd ya ha registrado que /usr/bin/python3.12 fue el ejecutor, dándome una pista          forense imborrable*
+  *Implementación de telemetría mediante Auditd. El log captura el momento exacto en que el intérprete de Python interactúa con archivos sensibles. Como analista, este rastro permite la atribución: sé exactamente qué         proceso y qué usuario generaron las llaves criptográficas. Incluso si el atacante borra el script después de ejecutarlo, el log de auditd ya ha registrado que /usr/bin/python3.12 fue el ejecutor, dándome una pista          forense imborrable.*
   
 - Análisis de Tráfico y Exfiltración
   <img width="1594" height="843" alt="wireshark_traffic" src="https://github.com/user-attachments/assets/0980c43d-81c7-49c6-85db-252c972ed62d" />
