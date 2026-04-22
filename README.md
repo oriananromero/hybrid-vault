@@ -46,7 +46,7 @@ Este proyecto me permitió entender:
   *En el original: Se lee perfectamente el texto.*
   
   <img width="968" height="516" alt="ciphered_file" src="https://github.com/user-attachments/assets/ad985745-652a-4ed2-a13f-2a31f769ee51" />
-  *En el cifrado: Es puro ruido. Fíjate en la línea 00000100 de ciphered_file.png: se ve perfectamente tu separador ---SEPARATOR---.*
+  *En el cifrado: Es puro ruido. En la línea 00000100 se ve perfectamente el separador ---SEPARATOR---.*
 
   *Detección mediante análisis de archivos (File Analysis). Mientras el original es legible, el artefacto vault.file muestra una estructura de alta ilegibilidad. La presencia del separador en texto plano dentro del binario   es un indicador que permite identificar la estructura del payload durante una investigación forense.*
 
