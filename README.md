@@ -52,6 +52,7 @@ Este proyecto me permitió entender:
 
 - Monitorización del Sistema
   <img width="1853" height="879" alt="auditctl-capture" src="https://github.com/user-attachments/assets/6235bed1-34ff-44b7-9abe-572cdac92955" />
+  
   *Implementación de telemetría mediante Auditd. El log captura el momento exacto en que el intérprete de Python interactúa con archivos sensibles. Como analista, este rastro permite la atribución: sé exactamente qué         proceso y qué usuario generaron las llaves criptográficas. Incluso si el atacante borra el script después de ejecutarlo, el log de auditd ya ha registrado que /usr/bin/python3.12 fue el ejecutor, dándome una pista          forense imborrable*
   
 - Análisis de Tráfico y Exfiltración
